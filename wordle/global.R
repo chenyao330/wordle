@@ -1,6 +1,8 @@
 library(shiny)
 library(shinyjs)
 
+word_list <- read.csv("word_list.csv")
+
 set.seed(Sys.Date())
 word_today <- sample(word_list$word, 1)
 
