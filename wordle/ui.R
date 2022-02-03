@@ -6,7 +6,7 @@ shinyUI(fluidPage(
     
     actionButton("check", label = "check"),
     
-    verbatimTextOutput("results", placeholder = TRUE)
+    verbatimTextOutput("try_results", placeholder = TRUE)
     
    
     
